@@ -1,15 +1,10 @@
 function iniLin() {
-
-
-
     var getElemId = [
         document.getElementById("status"),
 
     ];
 
- 
-
-    var linuxMarkup = [
+     var linuxMarkup = [
         '<h2>Linux Swapfile Generator</h2>',
         '<form action="">',
         '<input type="text" name="swapFileNameLocation" id="swapFileNameLocation" value="/swapfilecode.com"> Swap File Name and Location<br>', 
@@ -17,7 +12,7 @@ function iniLin() {
         '<input type="number" name="multiSwap" id="multiSwap" value="1"> Swap File Size<br>',
         '<input type="number" name="swapiness" id="swapiness" value="20"> Swapiness<br>',
         '<input type="number" name="bs" id="bs" value="1024"> BS<br>',
-        '<input type="checkbox" name="isRoot" id="isRootCheckbox"> Are you root?',
+        '<input type="checkbox" name="isRoot" id="isRootCheckbox"> No Root',
         '<input type="checkbox" name="isFallocate" id="isFallocate"> Fallocate',
         '<input type="checkbox" name="isSwapiness" id="isSwapiness"> Swapiness',
         '<input type="checkbox" name="surviveReboot" id="surviveReboot" checked="true"> Survive Reboot<br>',
@@ -26,9 +21,8 @@ function iniLin() {
         '<div id="buttons">',
         '<button onclick="restDef()"> Restore Default </button>', '<button onclick="linGen()"> Generate </button>', '<button onclick="clearGen()"> Clear </button> </div>'
        ];
-    
-
-      
+ 
+     
         getElemId[0].style.color = "#ffffff";
         getElemId[0].innerHTML =     
             linuxMarkup[0] + 
