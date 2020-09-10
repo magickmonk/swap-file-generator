@@ -115,10 +115,10 @@ function linGen() {
 
 
 
-multiSwapLoop = [
-    '',
-    document.getElementById("multiSwap").value
-]
+//multiSwapLoop = [
+//   '',
+//    document.getElementById("multiSwap").value
+//]
 
 
     
