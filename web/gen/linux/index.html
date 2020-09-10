@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+ <link rel="stylesheet" href="/assets/theme/css/style.css">
+
+<link href="/assets/theme/prism/prism.css" rel="stylesheet" />
+
+<script src="/assets/js/linuxGen.js"></script>
+</head>
+<body>
+
+<h1>Swap File Code Generator</h1>
+<div id="status"> </div>
+
+<script src="/assets/theme/prism/prism.js"></script>
+
+
+    <div id="wrapper">
+            <div id="menu"> 
+            <a id="homeLink" href="/">Home</a>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="/gen/linux"  id="osOptLin">Linux</a> 
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a id="osOptWin"">Windows</a>
+        </div>
+        
+        <h2>Linux Swapfile Generator</h2>
+        <form action="">
+        <input type="text" name="swapFileNameLocation" id="swapFileNameLocation" value="/swapfilecode.com"> Swap File Name and Location<br> 
+        <input type="number" name="swapFileSize" id="swapFileSize" value="1"> Swap File Size<br>
+        <input type="number" name="multiSwap" id="multiSwap" value="1"> Swap File Size<br>
+        <input type="number" name="swapiness" id="swapiness" value="20"> Swapiness<br>
+        <input type="number" name="bs" id="bs" value="1024"> BS<br>
+        <input type="checkbox" name="isRoot" id="isRootCheckbox"> Are you root?
+        <input type="checkbox" name="isFallocate" id="isFallocate"> Fallocate
+        <input type="checkbox" name="isSwapiness" id="isSwapiness"> Swapiness
+        <input type="checkbox" name="surviveReboot" id="surviveReboot" checked="true"> Survive Reboot<br>
+
+
+     
+        <br><textarea name="generatorCode" id="generatorCode" rows="14" cols="10" wrap="soft">Choose your settings </textarea><br>
+    
+    
+
+        </form>
+        <div id="buttons">
+       
+
+        <button onclick="restDef()">
+                Restore Default
+                </button>
+
+                <button onclick="linGen()">
+                        Generate
+                        </button>
+
+        <button onclick="clearGen()">
+                Clear
+                </button>
+
+                
+               
+
+                    </div>
+    </div>
+
+</body>
+<footer>
+
+</footer>-+

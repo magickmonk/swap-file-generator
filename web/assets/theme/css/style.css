@@ -1,0 +1,115 @@
+
+#wrapper {
+   color: rgb(255, 255, 255);
+   word-wrap: break-word;
+
+   margin: 0 auto;
+
+   width: 450px;
+   font-size: 16px;
+   background: #495C70;
+   padding: 30px 30px 15px 30px;
+   border: 5px solid #53687E;
+
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	width: 35%;
+	margin: 0 auto;
+}
+#osOptLin, #homeLink{
+	background: #3a4959;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer; 
+}
+
+
+
+
+
+#wrapper input[type=radio],
+#wrapper input[type=button],
+#wrapper input[type=checkbox],
+#wrapper textarea
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: white;
+	
+
+}
+
+#wrapper textarea{
+	background: #33404e	;
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	overflow: hidden;
+	resize:none;
+	height:110px;
+	width: 430px;
+	border-radius: 10px;
+	padding: 10px; 
+	color: #33404e;
+			
+			
+			
+			
+		}
+
+
+
+
+button{
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: rgb(253, 253, 253);
+	text-align: center;
+	width: 30%;
+    margin-left: 20px;
+	cursor: pointer; 
+    display:inline-block;
+    overflow: auto;
+    margin:0px auto;
+}
+#buttons {
+	margin-left: 35px;
+}
+button:hover{
+background: #394D61;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
