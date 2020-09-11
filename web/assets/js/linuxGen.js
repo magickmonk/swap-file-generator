@@ -33,15 +33,13 @@ function linGen() {
 
     var markupValues = [
         document.getElementById("swapFileSize").value,
-        document.getElementById("swapiness").value,
+        '',
         document.getElementById("bs").value,
         document.getElementById("swapFileNameLocation").value
     ]
 
     var isFallocateLocation = '';
     var varLocation = markupValues[3];
-
-
 
 
     if (isRootCheckbox.checked) {
@@ -81,10 +79,12 @@ function linGen() {
         '',
         ''
     ]
+    
     if (isSwapiness.checked) {
         swapCode[0] = "sudo ",
             swapCode[1] = "sysctl ",
-            swapCode[2] = "vm.swappiness="
+            swapCode[2] = "vm.swappiness=",
+            markupValues[1] = document.getElementById("swapiness").value
     }
     if (isSwapiness.checked && isRootCheckbox.checked) {
         swapCode[0] = ""
@@ -92,28 +92,17 @@ function linGen() {
     if (isSwapiness.checked) {
         defaultLinuxCode[8] = " && "
     }
-
-
     if (isSwapiness.checked && surviveReboot.checked) {
         swapCode[3] = defaultLinuxCode[8] + " 'echo " + swapCode[2] + markupValues[1] + " >> /etc/sysctl.conf'"
     }
 
-
-
-
     document.getElementById("generatorCode").style.background = "#6f0000";
     document.getElementById("generatorCode").style.color = "white";
-
-
-
 
     //multiSwapLoop = [
     //   '',
     //    document.getElementById("multiSwap").value
     //]
-
-
-
 
     document.getElementById("generatorCode").value =
         sudoOrNot +
@@ -130,10 +119,6 @@ function linGen() {
         defaultLinuxCode[8] + swapCode[0] + swapCode[1] + swapCode[2] + markupValues[1] +
         swapCode[3] +
         defaultLinuxCode[5] + sudoOrNot + swapon[0] + swapon[1]
-
-
-
-
 }
 
 
@@ -154,8 +139,4 @@ function restDef() {
         document.getElementById("isFallocate").checked = false,
         document.getElementById("isSwapiness").checked = false,
         document.getElementById("surviveReboot").checked = true;
-
-
-
-
 }

@@ -4,13 +4,14 @@ function iniHome() {
 
     ];
 
-    var homeMarkup = ['<h2>Home</h2>', '<p>Hello</p>', '<div>footer</div>']
+    var homeMarkup = ['<h2>Need a Swapfile fast?</h2>', '<p>Easily generate unique codes to create custom swapfiles on supported systems -</p>', '<div> Step 1.) Select an operating system from above to load a generator. </br> Step 2.) Enter your settings, if any (defaults are usually fine). Click generate.</br> Step 3.) Copy/paste your generated code into a terminal session and hit enter. </br> Step 4.) Watch the magic happen!</div>']
     getElemId[0].style.color = "#ffffff";
     getElemId[0].innerHTML =
         homeMarkup[0] +
         homeMarkup[1] +
         homeMarkup[2]
 }
+
 
 function iniLin() {
     var getElemId = [

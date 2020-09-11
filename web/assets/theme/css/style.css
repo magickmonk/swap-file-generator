@@ -52,7 +52,7 @@ h1 {
 button {
 	background: #c30101;
 	padding: 8px 10px 8px 10px;
-	border: none;
+	border: .5px solid #800000;
 	border-radius: 20px;
 	color: rgb(253, 253, 253);
 	text-align: center;
@@ -61,6 +61,7 @@ button {
 	display: inline-block;
 	overflow: auto;
 	margin: 0 auto;
+	text-shadow: 2px 2px #800000;
 }
 
 #status button {
@@ -69,4 +70,17 @@ button {
 
 button:hover {
 	background: #940000;
+	border: .1px solid #800000a2;
+}
+
+footer {
+		color: white;
+		text-shadow: 1px 1px #800000a2;
+		width: 35%;
+		margin: 10px auto;
+		background: #940000;
+		border: 1px solid #560d0d;
+		text-align: center;
+		font-size: 15px;
+		border-radius: 5px;
 }
