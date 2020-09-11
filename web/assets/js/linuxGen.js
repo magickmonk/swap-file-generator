@@ -109,7 +109,7 @@ function linGen() {
 
 
    
-    document.getElementById("generatorCode").style.background = "#3a4959";
+    document.getElementById("generatorCode").style.background = "#6f0000";
     document.getElementById("generatorCode").style.color = "white";
 
 

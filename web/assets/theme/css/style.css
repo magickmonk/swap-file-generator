@@ -1,33 +1,28 @@
-#status {
-
-}
-#wrapper {
-   color: rgb(255, 255, 255);
-   word-wrap: break-word;
-
-   margin: 0 auto;
-
-   width: 450px;
-   font-size: 16px;
-   background: #495C70;
-   padding: 30px 30px 15px 30px;
-   border: 5px solid #53687E;
-
-}
-
 body {
-	background-color: black;
+	background-color: #6f0000;
 }
 
 h1 {
 	color: white;
 	width: 35%;
-	margin: 0 auto;
+	margin: 10px auto;
+	background: #940000;
+	border: 1px solid #560d0d;	
+	text-align: center;
+	border-radius: 5px;
 }
-
-
-
-
+#wrapper {
+	color: rgb(255, 255, 255);
+	word-wrap: break-word;
+	margin: 0 auto;
+	width: 500px;
+	font-size: 16px;
+	background: #940000;
+	padding: 10px 0px 10px 35px;
+	border: 2px solid  	#6f0000;
+	border-radius: 10px;
+   
+ }
 
 
 #wrapper input[type=radio],
@@ -43,19 +38,17 @@ h1 {
 }
 
 #wrapper textarea{
-	background: #33404e	;
+	background: #6f0000;
+	padding: 10px 10px 10px 10px;
 	font-style: italic;
-	padding: 0px 0px 0px 0px;
 	outline: none;
-	border: none;
-	width: 275px;
+	border: 1px solid #800000;
+	width: 85%;
 	overflow: hidden;
 	resize:none;
 	height:110px;
-	width: 430px;
-	border-radius: 10px;
-	padding: 10px; 
-	color: #33404e;
+	border-radius: 10px; 
+	color: #f1d0f2;
 			
 			
 			
@@ -66,24 +59,23 @@ h1 {
 
 
 button,.menuButton{
-	background: #576E86;
-	border: none;
+	background: #c30101;
 	padding: 8px 10px 8px 10px;
+	
+	border: none;
 	border-radius: 5px;
 	color: rgb(253, 253, 253);
 	text-align: center;
-	width: 30%;
-    margin-left: 20px;
+	width: 30%;    
 	cursor: pointer; 
     display:inline-block;
     overflow: auto;
-    margin:0px auto;
+	margin:0 auto;
+
 }
-#buttons {
-	margin-left: 35px;
-}
-button:hover,.menuButton {
-background: #394D61;
+
+button:hover,.menuButton:hover {
+background: #940000;
 
 
 }
