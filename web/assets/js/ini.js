@@ -1,3 +1,18 @@
+function iniHome() {
+    var getElemId = [
+        document.getElementById("status"),
+        
+    ];
+
+    var homeMarkup = ['<h2>Home</h2>','<p>Hello</p>','<div>footer</div>'
+    ]
+    getElemId[0].style.color = "#ffffff";
+    getElemId[0].innerHTML =     
+        homeMarkup[0] + 
+        homeMarkup[1] +
+        homeMarkup[2]
+}
+
 function iniLin() {
     var getElemId = [
         document.getElementById("status"),
