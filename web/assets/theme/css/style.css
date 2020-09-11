@@ -56,16 +56,17 @@ button {
 	border-radius: 20px;
 	color: rgb(253, 253, 253);
 	text-align: center;
-	width: 22%;
+	width: 120px;
 	cursor: pointer;
 	display: inline-block;
 	overflow: auto;
-	margin: 0 auto;
+	margin: 0 auto auto 23px;
 	text-shadow: 2px 2px #800000;
+
 }
 
 #status button {
-	width: 29%;
+	width: 120px;
 }
 
 button:hover {
@@ -83,4 +84,9 @@ footer {
 		text-align: center;
 		font-size: 15px;
 		border-radius: 5px;
+}
+
+img {
+	
+	margin-right: 20px;
 }

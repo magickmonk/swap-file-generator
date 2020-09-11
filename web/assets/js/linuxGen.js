@@ -124,8 +124,7 @@ function linGen() {
 
 
 function clearGen() {
-    document.getElementById("generatorCode").value = ''
-    document.getElementById("generatorCode").style.color = "#33404e";
+    document.getElementById("generatorCode").value = '^^ Choose your settings ^^'
 
 }
 
@@ -139,4 +138,5 @@ function restDef() {
         document.getElementById("isFallocate").checked = false,
         document.getElementById("isSwapiness").checked = false,
         document.getElementById("surviveReboot").checked = true;
+        document.getElementById("generatorCode").value = '^^ Choose your settings ^^'
 }
