@@ -8,10 +8,11 @@ h1 {
 	width: 35%;
 	margin: 10px auto;
 	background: #940000;
-	border: 1px solid #560d0d;	
+	border: 1px solid #560d0d;
 	text-align: center;
 	border-radius: 5px;
 }
+
 #wrapper {
 	color: rgb(255, 255, 255);
 	word-wrap: break-word;
@@ -19,26 +20,22 @@ h1 {
 	width: 500px;
 	font-size: 16px;
 	background: #940000;
-	padding: 15px 0px 15px 40px;
+	padding: 15px 0 15px 40px;
 	border: 2px solid  	#6f0000;
 	border-radius: 10px;
-   
- }
+}
 
 #wrapper input[type=radio],
 #wrapper input[type=button],
 #wrapper input[type=checkbox],
-#wrapper textarea
-{
+#wrapper textarea {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 16px;
 	color: white;
 	margin-bottom: 15px;
-	
-
 }
 
-#wrapper textarea{
+#wrapper textarea {
 	background: #6f0000;
 	padding: 10px 10px 10px 10px;
 	font-style: italic;
@@ -46,57 +43,30 @@ h1 {
 	border: 1px solid #800000;
 	width: 85%;
 	overflow: hidden;
-	resize:none;
-	height:110px;
-	border-radius: 10px; 
+	resize: none;
+	height: 110px;
+	border-radius: 10px;
 	color: #f1d0f2;
-			
-			
-			
-			
-		}
+}
 
-button{
+button {
 	background: #c30101;
 	padding: 8px 10px 8px 10px;
 	border: none;
 	border-radius: 20px;
 	color: rgb(253, 253, 253);
 	text-align: center;
-	width: 22%;    
-	cursor: pointer; 
-    display:inline-block;
-    overflow: auto;
-	margin:0 auto;
-
+	width: 22%;
+	cursor: pointer;
+	display: inline-block;
+	overflow: auto;
+	margin: 0 auto;
 }
 
 #status button {
-	width: 29%; 
+	width: 29%;
 }
+
 button:hover {
-background: #940000;
-
-
+	background: #940000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
