@@ -19,7 +19,9 @@ function iniLin() {
         '<br><textarea name="generatorCode" id="generatorCode" rows="14" cols="10" wrap="soft">Choose your settings </textarea><br>',
         '</form>',
         '<div id="buttons">',
-        '<button onclick="restDef()"> Restore Default </button>', '<button onclick="linGen()"> Generate </button>', '<button onclick="clearGen()"> Clear </button> </div>'
+        '<button onclick="restDef()"> Restore Default </button>', 
+        '<button onclick="linGen()"> Generate </button>', 
+        '<button onclick="clearGen()"> Clear </button> </div>'
        ];
  
      
