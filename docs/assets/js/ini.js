@@ -3,7 +3,7 @@ function iniHome() {
     var getElemId = [
         document.getElementById("status"),
     ];
-    document.getElementById("year").innerHTML = new Date().getFullYear()+'<a href="https://swapon.linuxflex.com">swapon.linuxflex.com</a>';
+    document.getElementById("year").innerHTML = new Date().getFullYear()+' <a href="https://swapon.linuxflex.com">swapon.linuxflex.com</a>';
     var homeMarkup = ['<p><h4>Easily generate unique codes to create custom swap files.</h4></p>']
     getElemId[0].style.color = "#ffffff";
     getElemId[0].innerHTML =
