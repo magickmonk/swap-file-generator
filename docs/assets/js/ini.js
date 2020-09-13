@@ -16,7 +16,7 @@ function iniLin() {
         document.getElementById("status"),
     ];
     var linuxMarkup = [
-        '<h2>Linux Swapfile Generator</h2>',
+        '<h2>Linux Swap File Generator</h2>',
         '<form action="">',
         '<input type="text" name="swapFileNameLocation" id="swapFileNameLocation" value="/swapon.linuxflex.com"> Swap File Name and Location<br>',
         '<input type="number" name="swapFileSize" id="swapFileSize" value="1"> Swap File Size<br>',
