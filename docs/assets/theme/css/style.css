@@ -38,6 +38,14 @@ p {
 	font-size: 13px;
 }
 
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+a:hover {
+	color: rgba(255, 255, 255, 0.603);
+}
+
 #wrapper {
 	color: rgb(255, 255, 255);
 	word-wrap: break-word;
