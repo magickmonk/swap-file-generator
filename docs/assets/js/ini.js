@@ -1,13 +1,14 @@
 
 function iniHome() {
-    var getElemId = [
-        document.getElementById("status"),
-    ];
-    document.getElementById("year").innerHTML = '2020 - '+new Date().getFullYear()+' <a href="https://swapon.linuxflex.com">swapon.linuxflex.com</a>';
+    var getElemId = [document.getElementById("status"),document.getElementById("footer")]
     var homeMarkup = ['<p><h4>Easily generate unique codes to create custom swap files.</h4></p>']
-    getElemId[0].style.color = "#ffffff";
-    getElemId[0].innerHTML =
-        homeMarkup[0] 
+    var footerMarkup =['<a class="github-button" href="https://github.com/yellucs/swap-file-generator/subscription" data-show-count="false" aria-label="Watch yellucs/swap-file-generator on GitHub">Watch</a>', 
+                       '<a class="github-button" href="https://github.com/yellucs/swap-file-generator" data-show-count="false" aria-label="Star yellucs/swap-file-generator on GitHub">Star</a>',
+                       '<a class="github-button" href="https://github.com/yellucs" data-show-count="false" aria-label="Follow @yellucs on GitHub">Follow @yellucs</a></br>&copy; <span id="year">2020</span>  ']
+    getElemId[0].style.color = "#ffffff"
+    getElemId[0].innerHTML = homeMarkup[0]
+    getElemId[1].innerHTML = footerMarkup[0]+footerMarkup[1]+footerMarkup[2]
+    document.getElementById("year").innerHTML = '2020 - '+new Date().getFullYear()+' <a href="https://swapon.linuxflex.com">swapon.linuxflex.com</a>'
 }
 
 
