@@ -2,7 +2,7 @@
 
 ## Quick start guide
 
-Step 1.) Select the Generator tab from above to load the generator.
+Step 1.) Load https://yellucs.github.io/swap-file-generator/ and select the Generator tab from above to load the generator.
 
 Step 2.) Enter your settings, if any (defaults are usually fine). Click generate.
 
