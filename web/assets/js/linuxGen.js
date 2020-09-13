@@ -1,6 +1,6 @@
+
+
 function linGen() {
-
-
     var sudoOrNot = 'sudo ';
     var surviveRebootSudo = '';
     var defaultLinuxCode = [
@@ -96,7 +96,7 @@ function linGen() {
         swapCode[3] = defaultLinuxCode[8] + " 'echo " + swapCode[2] + markupValues[1] + " >> /etc/sysctl.conf'"
     }
 
-    document.getElementById("generatorCode").style.background = "#6f0000";
+    document.getElementById("generatorCode").style.background = "#019ad2";
     document.getElementById("generatorCode").style.color = "white";
 
     //multiSwapLoop = [
@@ -123,20 +123,32 @@ function linGen() {
 
 
 
-function clearGen() {
-    document.getElementById("generatorCode").value = '^^ Choose your settings ^^'
 
+
+
+
+function clearGen () {
+
+  document.getElementById('generatorCode').value = 'Window cleared. Choose your settings or click generate...';
 }
+
+
+
+
+
+
+
 
 function restDef() {
 
-    document.getElementById("swapFileNameLocation").value = "/swapfilecode.com",
+    document.getElementById("swapFileNameLocation").value = "/swapon.linuxflex.com",
         document.getElementById("swapFileSize").value = 1,
         document.getElementById("swapiness").value = 20,
         document.getElementById("bs").value = 1024,
         document.getElementById("isRootCheckbox").checked = false,
         document.getElementById("isFallocate").checked = false,
         document.getElementById("isSwapiness").checked = false,
-        document.getElementById("surviveReboot").checked = true;
-        document.getElementById("generatorCode").value = '^^ Choose your settings ^^'
+        document.getElementById("surviveReboot").checked = true,
+        document.getElementById("generatorCode").value = 'Default settings restored. Choose your settings or click generate...';
+        
 }
