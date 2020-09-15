@@ -40,7 +40,7 @@ function iniLin() {
         '<div id="buttons">',
         '<button onclick="restDef()"> Default </button>',
         '<button onclick="linGen()"> Generate </button>',
-        '<button onclick="clearGen()"> Clear </button> </div>'
+        '<button onclick="copyGen()"> Copy </button> </div>'
     ];
 
 

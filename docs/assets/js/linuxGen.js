@@ -1,5 +1,3 @@
-
-
 function linGen() {
     var sudoOrNot = 'sudo ';
     var surviveRebootSudo = '';
@@ -120,35 +118,20 @@ function linGen() {
         swapCode[3] +
         defaultLinuxCode[5] + sudoOrNot + swapon[0] + swapon[1]
 }
-
-
-
-
-
-
-
-function clearGen () {
-
-  document.getElementById('generatorCode').value = 'Window cleared. Choose your settings or click generate...';
+function copyGen () {
+    var copyTxt = document.getElementById("generatorCode");
+    copyTxt.select();
+    copyTxt.setSelectionRange(0,99999);
+    document.execCommand("copy");
 }
-
-
-
-
-
-
-
-
 function restDef() {
-
-    document.getElementById("swapFileNameLocation").value = "/swapon.linuxflex.com",
-        document.getElementById("swapFileSize").value = 1,
-        document.getElementById("swapiness").value = 20,
-        document.getElementById("bs").value = 1024,
-        document.getElementById("isRootCheckbox").checked = false,
-        document.getElementById("isFallocate").checked = false,
-        document.getElementById("isSwapiness").checked = false,
-        document.getElementById("surviveReboot").checked = true,
-        document.getElementById("generatorCode").value = 'Default settings restored. Choose your settings or click generate...';
-        
+    document.getElementById("swapFileNameLocation").value = "/swapon.linuxflex.com";
+    document.getElementById("swapFileSize").value = 1;
+    document.getElementById("swapiness").value = 20;
+    document.getElementById("bs").value = 1024;
+    document.getElementById("isRootCheckbox").checked = false;
+    document.getElementById("isFallocate").checked = false;
+    document.getElementById("isSwapiness").checked = false;
+    document.getElementById("surviveReboot").checked = true;
+    document.getElementById("generatorCode").value = 'Default settings restored. Choose your settings or click generate...';
 }
