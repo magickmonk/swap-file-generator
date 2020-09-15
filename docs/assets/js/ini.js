@@ -1,5 +1,6 @@
-// https://github.com/yellucs/swap-file-generator
-
+// Code: https://github.com/yellucs/swap-file-generator
+// Hosted: https://swapon.linuxflex.com/
+// License: https://github.com/yellucs/swap-file-generator/blob/master/LICENSE
 
 function iniHome() {
     var getElemId = [document.getElementById("footer"),document.getElementById("status")]
