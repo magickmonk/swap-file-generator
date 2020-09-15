@@ -6,12 +6,13 @@ function iniHome() {
     var homeMarkup = ['<p><h4>Easily generate unique codes to create custom swap files.</h4></p>']
     getElemId[1].innerHTML = homeMarkup[0]
     var footerMarkup = [
+                       '&copy; <span id="year">2020</span></br>',
                        '<a class="github-button" href="https://github.com/yellucs/swap-file-generator/subscription" data-show-count="false" aria-label="Watch yellucs/swap-file-generator on GitHub">Watch</a>', 
                        '<a class="github-button" href="https://github.com/yellucs/swap-file-generator" data-show-count="false" aria-label="Star yellucs/swap-file-generator on GitHub">Star</a>',
-                       '<a class="github-button" href="https://github.com/yellucs" data-show-count="false" aria-label="Follow @yellucs on GitHub">Follow @yellucs</a></br>&copy; <span id="year">2020</span>  '
+                       '<a class="github-button" href="https://github.com/yellucs" data-show-count="false" aria-label="Follow @yellucs on GitHub">Follow @yellucs</a>'
                        ]
  
-    getElemId[0].innerHTML = footerMarkup[0]+footerMarkup[1]+footerMarkup[2]
+    getElemId[0].innerHTML = footerMarkup[0]+footerMarkup[1]+footerMarkup[2]+footerMarkup[3]
     document.getElementById("year").innerHTML = '2020 - '+new Date().getFullYear()+' <a href="https://swapon.linuxflex.com">swapon.linuxflex.com</a>'
 }
 
@@ -40,9 +41,9 @@ function iniLin() {
         '<br><textarea name="generatorCode" id="generatorCode" rows="14" cols="10" wrap="soft">Choose your settings...</textarea><br>',
         '</form>',
         '<div id="buttons">',
-        '<button onclick="restDef()"> Default </button>',
-        '<button onclick="linGen()"> Generate </button>',
-        '<button onclick="copyGen()"> Copy </button> </div>'
+        '<button id="defBtn" onclick="restDef()"> Default </button>',
+        '<button id="linGen" onclick="linGen()"> Generate </button>',
+        '<button id="copyBtn" onclick="copyGen()"> Copy </button> </div>'
     ];
 
 

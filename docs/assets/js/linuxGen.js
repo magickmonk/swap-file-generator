@@ -120,12 +120,15 @@ function linGen() {
         defaultLinuxCode[8] + swapCode[0] + swapCode[1] + swapCode[2] + markupValues[1] +
         swapCode[3] +
         defaultLinuxCode[5] + sudoOrNot + swapon[0] + swapon[1]
+        
+    document.getElementById("linGen").innerHTML = "Generated";
 }
 function copyGen () {
     var copyTxt = document.getElementById("generatorCode");
     copyTxt.select();
     copyTxt.setSelectionRange(0,99999);
     document.execCommand("copy");
+    document.getElementById("copyBtn").innerHTML = "Copied";
 }
 function restDef() {
     document.getElementById("swapFileNameLocation").value = "/swapon.linuxflex.com";
@@ -137,4 +140,6 @@ function restDef() {
     document.getElementById("isSwapiness").checked = false;
     document.getElementById("surviveReboot").checked = true;
     document.getElementById("generatorCode").value = 'Default settings restored. Choose your settings or click generate...';
+    document.getElementById("linGen").innerHTML = "Generate";
+    document.getElementById("copyBtn").innerHTML = "Copy";
 }
