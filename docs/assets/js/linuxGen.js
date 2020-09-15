@@ -1,3 +1,6 @@
+// https://github.com/yellucs/swap-file-generator
+
+
 function linGen() {
     var sudoOrNot = 'sudo ';
     var surviveRebootSudo = '';

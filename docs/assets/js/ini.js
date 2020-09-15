@@ -1,3 +1,5 @@
+// https://github.com/yellucs/swap-file-generator
+
 
 function iniHome() {
     var getElemId = [document.getElementById("footer"),document.getElementById("status")]
