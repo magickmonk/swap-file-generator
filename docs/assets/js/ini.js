@@ -19,7 +19,7 @@ function iniHome() {
 
 function homeBtn() {
     var getElemId = document.getElementById("status")
-    var homeMarkup = ['<p><h4>Easily generate unique codes to create custom swap files.</h4></p>']
+    var homeMarkup = ['<p><h4>Easily generate unique codes to create custom swap files</h4></p>']
     getElemId.innerHTML = homeMarkup[0]
 }
 
