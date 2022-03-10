@@ -4,7 +4,7 @@
 
 function iniHome() {
     var getElemId = [document.getElementById("footer"),document.getElementById("status")]
-    var homeMarkup = ['<p><h4>Easily generate unique codes to create custom swap files.</h4></p>']
+    var homeMarkup = ['<p><h4>Easily generate unique codes to create custom swap files</h4></p>']
     getElemId[1].innerHTML = homeMarkup[0]
     var footerMarkup = [
                        '&copy; <span id="year">2020</span></br>',
@@ -68,8 +68,6 @@ function iniLin() {
         linuxMarkup[15] //+
        // linuxMarkup[16]
 }
-
-
 
 
 function iniFaq() {
